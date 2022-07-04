@@ -18,6 +18,8 @@
 		46F8FBE1286F006300A4A4E2 /* TestProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F8FBE0286F006300A4A4E2 /* TestProjectUITestsLaunchTests.swift */; };
 		46F8FBEE286F061400A4A4E2 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46F8FBED286F061400A4A4E2 /* Login.storyboard */; };
 		46F8FBF0286F062700A4A4E2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F8FBEF286F062700A4A4E2 /* LoginViewController.swift */; };
+		5F6ED4042872B07100D44158 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6ED4022872B07000D44158 /* SignUpViewController.swift */; };
+		5F6ED4052872B07100D44158 /* SignUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F6ED4032872B07000D44158 /* SignUp.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		46F8FBE0286F006300A4A4E2 /* TestProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		46F8FBED286F061400A4A4E2 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		46F8FBEF286F062700A4A4E2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5F6ED4022872B07000D44158 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		5F6ED4032872B07000D44158 /* SignUp.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SignUp.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,7 @@
 		46F8FBB1286F006100A4A4E2 = {
 			isa = PBXGroup;
 			children = (
+				5F6ED4012872B07000D44158 /* SignUp */,
 				46F8FBBC286F006100A4A4E2 /* TestProject */,
 				46F8FBD3286F006300A4A4E2 /* TestProjectTests */,
 				46F8FBDD286F006300A4A4E2 /* TestProjectUITests */,
@@ -139,6 +144,15 @@
 				46F8FBEF286F062700A4A4E2 /* LoginViewController.swift */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		5F6ED4012872B07000D44158 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				5F6ED4022872B07000D44158 /* SignUpViewController.swift */,
+				5F6ED4032872B07000D44158 /* SignUp.storyboard */,
+			);
+			path = SignUp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,6 +263,7 @@
 				46F8FBCA286F006300A4A4E2 /* LaunchScreen.storyboard in Resources */,
 				46F8FBC7286F006300A4A4E2 /* Assets.xcassets in Resources */,
 				46F8FBC5286F006100A4A4E2 /* Main.storyboard in Resources */,
+				5F6ED4052872B07100D44158 /* SignUp.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +292,7 @@
 				46F8FBC2286F006100A4A4E2 /* ViewController.swift in Sources */,
 				46F8FBBE286F006100A4A4E2 /* AppDelegate.swift in Sources */,
 				46F8FBC0286F006100A4A4E2 /* SceneDelegate.swift in Sources */,
+				5F6ED4042872B07100D44158 /* SignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
